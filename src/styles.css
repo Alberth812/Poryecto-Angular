@@ -1,0 +1,35 @@
+/* Fondo general de la página */
+body {
+  background-color: #1e1e1e;
+  color: #f5f5f5;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Estilo del contenedor en mosaico */
+.component-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+/* Tarjeta individual */
+.component-card {
+  background-color: #2d2d2d;
+  border: 1px solid #444;
+  border-radius: 8px;
+  padding: 20px;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+/* Efecto al pasar el mouse */
+.component-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 20px rgba(0, 170, 255, 0.2);
+}
+
+/* Títulos dentro de las tarjetas */
+.component-title {
+  color: #00aaff;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
