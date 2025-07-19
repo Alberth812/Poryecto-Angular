@@ -69,9 +69,9 @@ Ver todas las opciones disponibles: ng generate --help
 <img width="419" height="461" alt="imagen" src="https://github.com/user-attachments/assets/c4d4dda6-b11e-4130-9b60-0a345a37e562" />
 
 
-🔗 Enlaces importantes 
+🔗 Enlaces de Proyecto:
 
-👉 Ver aplicación en GitHub Pages  
+👉 Ver aplicación en GitHub Pages: https://alberth812.github.io/Poryecto-Angular/
 
 
 📦 Descarga o clona los componentes: 
